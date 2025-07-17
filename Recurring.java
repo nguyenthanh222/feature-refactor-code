@@ -1,4 +1,4 @@
-// Code trước khi sửa:
+
 public JSONObject addNewTaskWithViolations(String title, String description,
                                             String dueDateStr, String priorityLevel,
                                             boolean isRecurring) {
@@ -10,6 +10,4 @@ public JSONObject addNewTaskWithViolations(String title, String description,
     // ... (phần còn lại của code)
 }
 
-// Code sau khi sửa:
-public JSONObject addNewTask(String title, String description, String dueDateStr, String priorityLevel) { 
-JSONObject newTask = new JSONObject();
+
