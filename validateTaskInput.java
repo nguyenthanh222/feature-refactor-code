@@ -1,15 +1,6 @@
-// Code trước khi sửa: 
-if (title == null || title.trim().isEmpty()) {
-    System.out.println("Lỗi: Tiêu đề không được để trống.");
-    return null;
-}
-if (dueDateStr == null || dueDateStr.trim().isEmpty()) {
-    System.out.println("Lỗi: Ngày đến hạn không được để trống.");
-    return null;
-}
-// ... (kiểm tra ngày và ưu tiên)
 
-// Code sau khi sửa: 
+
+
 private boolean validateTaskInput(String title, String dueDateStr, String priorityLevel) {
     if (title == null || title.trim().isEmpty()) {
         System.out.println("Lỗi: Tiêu đề không được để trống.");

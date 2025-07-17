@@ -1,11 +1,6 @@
-// Code trước khi sửa: 
-public JSONObject addNewTaskWithViolations(String title, String description,
-                                            String dueDateStr, String priorityLevel,
-                                            boolean isRecurring) {
-    // ... (toàn bộ logic kiểm tra, tạo nhiệm vụ, lưu dữ liệu)
-}
 
-// Code sau khi sửa: 
+
+
 public JSONObject addNewTask(String title, String description, String dueDateStr, String priorityLevel) {
     if (!validateTaskInput(title, dueDateStr, priorityLevel)) {
         return null;
